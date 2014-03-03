@@ -42,6 +42,10 @@ public class Fields {
      */
     private User reporter;
     /**
+     * The parent.
+     */
+    private Task parent;
+    /**
      * The list of task.
      */
     @XmlElement(name = "sub-tasks")
@@ -138,6 +142,24 @@ public class Fields {
      * The progress.
      */
     private Progress progress;
+
+    /**
+     * Gets the parent task.
+     *
+     * @return the parent task.
+     */
+    public Task getParent() {
+        return parent;
+    }
+
+    /**
+     * Sets the parent task.
+     *
+     * @param parent the parent task.
+     */
+    public void setParent(Task parent) {
+        this.parent = parent;
+    }
 
     /**
      * Gets the progress.
