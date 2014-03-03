@@ -44,7 +44,7 @@ public class Fields {
     /**
      * The parent.
      */
-    private Task parent;
+    private Issue parent;
     /**
      * The list of task.
      */
@@ -148,7 +148,7 @@ public class Fields {
      *
      * @return the parent task.
      */
-    public Task getParent() {
+    public Issue getParent() {
         return parent;
     }
 
@@ -157,7 +157,7 @@ public class Fields {
      *
      * @param parent the parent task.
      */
-    public void setParent(Task parent) {
+    public void setParent(Issue parent) {
         this.parent = parent;
     }
 
