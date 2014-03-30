@@ -48,6 +48,97 @@ public class User {
      * The email address.
      */
     private String emailAddress;
+    /**
+     * The time zone.
+     */
+    private String timeZone;
+
+    /**
+     * The groups.
+     */
+    private Groups groups;
+
+    /**
+     * The expand attribute.
+     */
+    private String expand;
+
+    /**
+     * The user key.
+     */
+    private String key;
+
+    /**
+     * Gets the key.
+     *
+     * @return the key.
+     */
+    public String getKey() {
+        return key;
+    }
+
+    /**
+     * Sets the key.
+     *
+     * @param key the key.
+     */
+    public void setKey(String key) {
+        this.key = key;
+    }
+
+    /**
+     * Gets the expand.
+     *
+     * @return the expand.
+     */
+    public String getExpand() {
+        return expand;
+    }
+
+    /**
+     * Sets the expand.
+     *
+     * @param expand the expand.
+     */
+    public void setExpand(String expand) {
+        this.expand = expand;
+    }
+
+    /**
+     * Gets the groups.
+     *
+     * @return the groups.
+     */
+    public Groups getGroups() {
+        return groups;
+    }
+
+    /**
+     * Sets the groups.
+     *
+     * @param groups the groups.
+     */
+    public void setGroups(Groups groups) {
+        this.groups = groups;
+    }
+
+    /**
+     * Gets the time zone.
+     *
+     * @return the time zone.
+     */
+    public String getTimeZone() {
+        return timeZone;
+    }
+
+    /**
+     * Sets the time zone.
+     *
+     * @param timeZone the time zone.
+     */
+    public void setTimeZone(String timeZone) {
+        this.timeZone = timeZone;
+    }
 
     /**
      * Gets the self.
